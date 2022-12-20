@@ -30,7 +30,7 @@ const post = [
       role:'CTO@Rocketseat'
     },
     content: [
-      {type: 'paragraph', content:  'Hello There '},
+      {type: 'paragraph', content:  'Hello There 👋'},
       {type: 'paragraph', content:  'I committed a new project to my portfolio'},
       {type: 'link', content:  'https://github.com/diego3g.png'},
     ],
@@ -50,7 +50,7 @@ export function App() {
             <Post 
               key={post.id}
               author={post.author}
-              content={post.content}
+              content={post.content as []}
               publishedAt={post.publishedAt}
             
             />
