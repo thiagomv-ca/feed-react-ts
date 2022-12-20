@@ -16,9 +16,9 @@ const post = [
       role:'Software Engineer'
     },
     content: [
-      {type: 'paragraph', content:  'Hello There '},
+      {type: 'paragraph', content:  'Hello There 👋'},
       {type: 'paragraph', content:  'I committed a new project to my portfolio'},
-      {type: 'link', content:  'https://github.com/thiagomv-ca.png'},
+      {type: 'link', content:  'https://github.com/thiagomv-ca'},
     ],
     publishedAt: new Date('2022-10-26 20:00:00')
   },
@@ -30,9 +30,9 @@ const post = [
       role:'CTO@Rocketseat'
     },
     content: [
-      {type: 'paragraph', content:  'Hello There 👋'},
+      {type: 'paragraph', content:  'Hello There '},
       {type: 'paragraph', content:  'I committed a new project to my portfolio'},
-      {type: 'link', content:  'https://github.com/diego3g.png'},
+      {type: 'link', content:  'https://github.com/diego3g'},
     ],
     publishedAt: new Date('2022-10-26 20:00:00')
   }
